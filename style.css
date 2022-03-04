@@ -68,7 +68,7 @@ body {
 .hero-main {
     font-size: 48px;
     font-weight: bolder;
-}
+}    
 
 .hero-secondary {
     font-size: 18px;
@@ -84,14 +84,15 @@ button {
     background-color: #3882F6;
     border: none;
     border-radius: 8px;
-    min-width: 80px;
+    min-width: 160px;
     padding: 8px;
     color: white;
     font-weight: bold;
 }
 
 .information {
-    text-align: center;    
+    text-align: center;
+    margin-bottom: 80px;    
 }
 
 .title {
@@ -120,4 +121,66 @@ button {
     width: 200px;
     border: 3px solid #3882F6;
     border-radius: 8px;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+}
+
+.quote {
+    max-width: 1000px;
+    width: 100%;    
+    text-align: justify;
+    font-size: 36px;
+    font-style: italic;
+    font-weight:lighter;
+    color: #1F2937;
+}
+
+.signature {       
+    max-width: 1000px;
+    width: 100%;
+    flex-basis:auto;     
+    text-align: right;
+    font-weight: bold;
+}
+
+.signup-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-container {
+    display: flex;
+    background-color: #3882F6;
+    padding: 32px;
+    margin: 32px;
+    justify-content: space-between;
+    gap: 300px;
+    border-radius: 8px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.signup-button2 {
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+}
+
+.text1 {
+    font-weight: bold;
+}
+
+.footer {
+    padding: 32px;
 }
